@@ -1,6 +1,7 @@
 // Render the cards using React!
 const App = (props) => {
     let { cards } = props;
+    console.log(props)
     return (
         <span>cards</span>
     )
